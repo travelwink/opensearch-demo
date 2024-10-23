@@ -1,0 +1,15 @@
+server:
+  port: 8818
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: TravelWink-Util
+  profiles:
+    default: dev
+
+opensearch:
+  uris: http://opensearch-node1:9200
+  username: admin
+  password: OpSearch1^Pass%
